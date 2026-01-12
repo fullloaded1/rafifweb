@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board Campus | Komunitas Magang & Jasa Karir</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Arial, sans-serif; }
+        
+        body { 
+            background-color: #f8f9fa; 
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header { 
+            background: #004d99; 
+            color: white; 
+            padding: 40px 20px; 
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .container { 
+            max-width: 700px; 
+            margin: 40px auto; 
+            padding: 0 20px; 
+            flex: 1;
+        }
+
+        /* WA Community Box */
+        .wa-box {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border: 2px solid #e1e8ed;
+            margin-bottom: 40px;
+        }
+
+        .wa-box h2 { color: #128C7E; margin-bottom: 10px; }
+        .wa-box p { color: #666; margin-bottom: 25px; line-height: 1.5; }
+
+        .btn-wa {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 18px 40px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-wa:hover {
+            background: #128C7E;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+        }
+
+        /* Jasa Section */
+        .services-title { text-align: center; margin-bottom: 20px; color: #333; }
+        
+        .service-card {
+            background: #ffffff;
+            margin-bottom: 15px;
+            padding: 20px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-left: 5px solid #004d99;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        }
+
+        .service-info h4 { margin-bottom: 5px; }
+        .service-info span { color: #004d99; font-weight: bold; }
+
+        .btn-order {
+            background: #004d99;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #888;
+            font-size: 14px;
+        }
+
+        @media (max-width: 480px) {
+            .service-card { flex-direction: column; text-align: center; gap: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎓 Job Board Campus</h1>
+        <p>Solusi Karir Mahasiswa dalam Satu Genggaman</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="wa-box">
+            <h2>Grup WA Rekomendasi Magang</h2>
+            <p>Dapatkan informasi lowongan magang terkurasi setiap hari dari berbagai platform sosial media (IG, LinkedIn, Twitter) langsung di WhatsApp kamu.</p>
+            <a href="https://whatsapp.com/channel/0029VbC4tFI8kyyHwg3iFV04" target="_blank" class="btn-wa">
+                🚀 Join Komunitas Sekarang
+            </a>
+        </section>
+
+        <h3 class="services-title">Butuh Bantuan Karir?</h3>
+        
+        <div class="service-card">
+            <div class="service-info">
+                <h4>Jasa CV ATS Friendly</h4>
+                <span>Rp 25.000</span>
+            </div>
+            <a href="https://forms.gle/vpo3HUGGMSJFHtPJ7" target="_blank" class="btn-order">Pesan</a>
+        </div>
+
+        <div class="service-card">
+            <div class="service-info">
+                <h4>Desain Portofolio Digital</h4>
+                <span>Rp 50.000</span>
+            </div>
+            <a href="https://forms.gle/vpo3HUGGMSJFHtPJ7" target="_blank" class="btn-order">Pesan</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Job Board Campus</p>
+    </footer>
+
+</body>
+</html>
